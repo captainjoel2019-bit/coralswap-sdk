@@ -8,7 +8,7 @@
     "dist/**/*"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "node api.js && tsc",
     "build:watch": "tsc --watch",
     "test": "jest",
     "test:watch": "jest --watch",
@@ -62,7 +62,7 @@
     "url": "https://github.com/CoralSwap-Finance/coralswap-sdk.git"
   },
   "dependencies": {
-    "@stellar/stellar-sdk": "^12.3.0",
+    "@stellar/stellar-sdk": "^17.0.0",
     "zod": "^4.4.3"
   },
   "devDependencies": {
